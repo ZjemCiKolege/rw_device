@@ -15,7 +15,7 @@
 /boot           emmc      /dev/block/bootdevice/by-name/boot                 flags=display="Boot";ose;dumwolfresize
 /misc           emmc      /dev/block/bootdevice/by-name/misc                 flags=display="Misc"
 /persist        ext4      /dev/block/bootdevice/by-name/persist              flags=display="Persist";backup=1
-/splash         emmc      /dev/block/bootdevice/by-name/splash          	 flags=display="Boot Logo";backup=1;flashimg=1
+/splash         emmc      /dev/block/bootdevice/by-name/splash          	   flags=display="Boot Logo";backup=1;flashimg=1
 
 /sdcard1        auto      /dev/block/mmcblk1p1                               flags=display="MicroSD";storage;wipeingui;removable
 /usb-otg        auto      /dev/block/sda1                                    flags=display="USB Storage";storage;wipeingui;removable
